@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.top-container {
+  /* background: linear-gradient(90deg, #8c52ff, #5ce1e5); */
+  background-color: #dbcac3;
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 4rem;
+  color: CE5A67;
+  font-family: "Sacramento", cursive;
+  font-weight: 100;
+}
+h2 {
+  font-size: 2rem;
+  color: CE5A67;
+  font-family: "Sacramento", cursive;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+p {
+  font-size: 22px;
+}
+
+span {
+  color: CE5A67;
+}
+.mid-container {
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+}
+.low-container {
+  border: dotted #eaf6f6 3px;
+  margin: 100px auto;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+#projects {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.project-info {
+  height: 70%;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: #dbcac3 solid;
+}
+.project-photo {
+  height: 70%;
+  width: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.project-text {
+  height: 30%;
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr {
+  border: none;
+  height: 50px;
+}
+.contact-me {
+  text-align: center;
+  border: dotted #eaf6f6 3px;
+  padding: 30px;
+}
+.btn {
+  color: CE5A67;
+  font-family: "Sacramento", cursive;
+  text-decoration: none;
+  background-color: #dbcac3;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #b39c9c;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #ce5a67;
+  font-family: "Sacramento", cursive;
+}
+.footer-link {
+  text-decoration: none;
+  background-color: #dbcac3;
+  color: #ce5a67;
+  padding: 5px 10px;
+  margin: 6px;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  .project-info {
+    height: auto;
+    width: 80%;
+    border: #dbcac3 solid;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
